@@ -122,3 +122,25 @@ figure .hero-img {
   height: 100%;
   object-fit: fill;
 }
+/* <--------Qoute section--------> */
+
+.qoute {
+  height: 55vh;
+  background-color: #e5e7eb;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.qoute-container {
+  width: 60%;
+  font-size: 36px;
+  color: #1f2937;
+}
+.qoute-para {
+  font-style: italic;
+}
+.qouter {
+  text-align: right;
+  font-size: 26px;
+}
