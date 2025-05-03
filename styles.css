@@ -13,7 +13,7 @@ header {
   background-color: #1f2937;
   display: flex;
   flex-direction: column;
-  height: 70vh;
+  min-height: 70vh;
 }
 .nav-bar,
 .nav-links {
@@ -89,7 +89,7 @@ figure .hero-img {
   margin: 36px 0;
 }
 .about {
-  height: 70vh;
+  min-height: 70vh;
 }
 .cat-gallery {
   display: flex;
@@ -125,7 +125,7 @@ figure .hero-img {
 /* <--------Qoute section--------> */
 
 .qoute {
-  height: 55vh;
+  min-height: 55vh;
   background-color: #e5e7eb;
   display: flex;
   justify-content: center;
