@@ -144,3 +144,44 @@ figure .hero-img {
   text-align: right;
   font-size: 26px;
 }
+
+/* <---------------------Service section---------------------> */
+.product {
+  min-height: 45vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container {
+  width: 70%;
+  background-color: #3882f6;
+  padding: 40px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  font-size: 18px;
+  letter-spacing: 1.5;
+}
+
+.right-side > h3 {
+  color: #f9faf8;
+  font-weight: 900;
+}
+.right-side > p {
+  color: #e5e7eb;
+}
+
+.left-side {
+  /* border: #f9faf8 2px solid; */
+  border-radius: 8px;
+  outline: auto #f9faf8;
+}
+
+.left-side button {
+  background-color: #3882f6;
+  /* border: 2px #f9faf8; */
+  padding: 10px 40px;
+  color: #f9faf8;
+}
