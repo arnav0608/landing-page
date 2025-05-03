@@ -201,3 +201,42 @@ footer > p {
   text-align: center;
   font-size: large;
 }
+/* <-------------------media queries for 600px width or less(phone)------------------> */
+
+@media screen and (max-width: 600px) {
+  header {
+    padding: 16px 8%;
+    text-wrap: pretty;
+  }
+
+  #head-article {
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+  }
+  .hero-content,
+  figure {
+    width: 100%;
+  }
+  .hero-content {
+    text-align: center;
+    text-wrap: balance;
+  }
+  .hero-content button {
+    margin: 0 auto;
+  }
+
+  .qoute-container {
+    width: 100%;
+    padding: 30px;
+    text-wrap: pretty;
+  }
+
+  .product-container {
+    flex-direction: column;
+    gap: 16px;
+    width: 100%;
+    text-align: center;
+    text-wrap: balance;
+  }
+}
